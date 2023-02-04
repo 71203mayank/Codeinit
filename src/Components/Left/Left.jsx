@@ -19,7 +19,7 @@ function Left(){
                                     </div>
                                     <div>
 
-                                        <select id='itemsType' name="itemsType" >
+                                        <select id='itemsType' name="itemsType" className="Extra">
                                             <option value='Mobiles'>Mobile</option>
                                             <option value='Laptops'>Laptop</option>
                                             <option value='Watches'>Watch</option>
@@ -33,19 +33,19 @@ function Left(){
                         </div>
                         <div className="date leftSub">
                                     <lable for='dateField' >  Date * <br></br> </lable>
-                                    <input type='date' id='dateField'  required></input>
-                        <div className="location leftSub">
-                                    <div>Location :</div>
-                                    <textarea name="discription" id="locate" cols="30" rows="2" className='subInput'></textarea>
+                                    <input type='date' id='dateField'  required className="Extra"></input>
+                            <div className="location leftSub">
+                                        <div>Location :</div>
+                                        <textarea name="discription" id="locate" cols="30" rows="2" className='subInput'></textarea>
+                            </div>
+                            <div className="description leftSub">
+                                        <div>Description:</div>
+                                        <textarea name="description" className='subInput' id="descp" cols="30" rows="4"></textarea>
+                            </div>
+                        {/* <div>
+                        </div> */}
                         </div>
-                        <div className="description leftSub">
-                                    <div>Description:</div>
-                                    <textarea name="description" className='subInput' id="descp" cols="30" rows="4"></textarea>
-                        </div>
-                        <div>
-                        </div>
-                        </div>
-                        <div><h2>Contact Details</h2></div>
+                        {/* <div><h2>Contact Details</h2></div>
                         <div className="LeftEmail leftSub">
                                     <lable for='Lmail' > E-Mail *<br></br> </lable>
                                     <input type='text' id='Lmail' className='subInput' required pattern='.+@nitc.ac.in'></input>
@@ -53,17 +53,18 @@ function Left(){
                         <div className="phNumber leftSub">
                                     <lable for='number' > Phone No * <br></br></lable>
                                     <input type='text' id='number' className='subInput' required pattern='.+@nitc.ac.in'></input>
-                        </div>
-
-                        <input type='submit' value='add'></input>
+                        </div> */}
+                        {/* <div className="LeftFormBtn"> */}
+                            <input type='submit' value='Add' className="AddBtn"></input>
+                        {/* </div> */}
 
                         </form>
                     </div>
 
             </div>
-            <div className="LeftData">
+            {/* <div className="LeftData">
 
-            </div>
+            </div> */}
 
         </div>
     )

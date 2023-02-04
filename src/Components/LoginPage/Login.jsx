@@ -26,9 +26,9 @@ function Login(){
                                 <div style={{margin:'auto'}} className="formBtn">Login</div>
                             </div>
                         </form>
-                        <div className="google">
+                        {/* <div className="google">
                             <div>Sign In</div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

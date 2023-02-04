@@ -24,9 +24,13 @@
     
 }
 .SubDivForm{
-    background-color: aliceblue;
-    height:550px;
-    width:450px;
+    /* background-color: aliceblue; */
+    backdrop-filter: blur(10px);
+    box-shadow: -5px 5px 50px aliceblue;
+    color:aliceblue;
+    /* border:solid 1px aliceblue; */
+    height:400px;
+    width:400px;
     display:flex;
     border-radius: 20px;
     
@@ -41,13 +45,28 @@
     padding:2px;
 }
 
+/* .LeftFormBtn{
+    width:50vw;
+    display:flex;
+    align-items: center;
+} */
+.AddBtn{
+    padding:10px 40px;
+    position:absolute;
+    left:35%;
+    border-radius: 10px;
+}
 
 @media  screen and (max-width:400px) {
     .Left{
         width:100vw;
         height:max-content;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
+    }
+    .Extra{
+        height:25px;
+        width:200px;
     }
     .LeftHead{
         height:50px;    
@@ -60,9 +79,9 @@
     .SubDivForm{
         background-color: transparent;
         backdrop-filter: blur(10px);
-        border: solid 1px aliceblue;
+        /* border: solid 1px aliceblue; */
         color:aliceblue;
-        height:80vh;
+        height:70vh;
         width:90vw;
     }
     .subInput{

@@ -37,7 +37,8 @@
 .details{
     margin:auto;
     display:flex;
-    border: solid 1px aliceblue;
+    /* border: solid 1px aliceblue; */
+    box-shadow: -2px -2px 10px #f8f0e3;
     height:350px;
     width:350px;
     border-radius:20px;
