@@ -1,0 +1,27 @@
+.Left{
+    width:50vw;
+    height:100vh;
+    border-right: solid black 1px;
+}
+.LeftHead{
+    display:flex;
+    /* width:25vw; */
+    justify-content: space-evenly;
+    height:35px;
+    align-items: center;
+    border:solid 1px black;
+}
+
+.LeftForm{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:40vw;
+    width: 50vw;
+}
+.formDetail{
+    height:250px;
+    width:400px;
+    border:solid 1px black;
+
+}
