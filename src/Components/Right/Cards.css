@@ -1,0 +1,41 @@
+.Cards{
+    width:500px;
+    height:250px;
+    border: solid black 1px;
+    display:flex;
+    /* flex-wrap: wrap; */
+    color:black;
+    margin:10px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    color: black;
+    background-color: aliceblue;
+}
+.CardsLeft{
+    width:250px;
+    height:250px;
+    border-radius: 10px;
+    border: solid 1px black;
+    
+}
+.CardsRight{
+    width:250px;
+    padding:5px;
+}
+
+@media screen and (max-width:400px){
+    .Cards{
+        /* display:block; */
+        flex:wrap;
+        /* width:100vw; */
+        /* display: block; */
+    }
+    .CardsLeft{
+        width:95vw;
+    }
+    .CardsRight{
+        width:95vw;
+    }
+}
+
+

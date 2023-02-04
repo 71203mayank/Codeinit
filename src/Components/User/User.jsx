@@ -6,8 +6,8 @@ import './User.css';
 function User (){
     return(
         <div className="User">
-            <Left/>
-            <Right/>
+            <Left className='userLeft'/>
+            <Right className='userRight'/>
         </div>
     )
 }

@@ -1,0 +1,30 @@
+.Right{
+    height:120vh;
+    width:50vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.window{
+    height:100vh;
+    display: block;
+    width:45vw;
+    overflow-y: scroll;
+    padding:20px;
+    /* border: solid 1px aliceblue; */
+}
+
+@media screen and (max-width:400px){
+    .Right{
+        width:100vw;
+        height:300px;
+    }
+    .window{
+        display: flex;
+        width:100vw;
+        height:280px;
+        overflow-x: scroll ;
+        /* overflow-x: hidden; */
+    }
+}
