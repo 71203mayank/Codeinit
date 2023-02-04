@@ -1,0 +1,51 @@
+.Login{
+    display: flex;
+    width:100%;
+    height:100vh;
+    background-image: url(./../../../public/Assets/loginBg.jpg);
+    background-size: cover;
+    background-repeat: none;
+    color:aliceblue
+
+}
+.details{
+    margin:auto;
+    display:flex;
+    height:30vw;
+    width:30vw;
+    border: solid 1px aliceblue;
+    border-radius:20px;
+    backdrop-filter: blur(4px);
+}
+.detailDiv{
+    margin:auto;
+}
+.formDiv{
+    padding:15px;
+}
+.formBtn{
+    padding:5px 20px;
+    border:solid 1px aliceblue;
+}
+.formBtn:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px){
+    .Login{
+        background-image: url(./../../../public/Assets/loginBgMobile.jpg);    
+    }
+    .details{
+        height:80vw;
+        width:80vw;
+    }
+}
+@media (orientation: landscape){
+    .Login{
+        background-image: url(./../../../public/Assets/loginBg.jpg);
+    }
+    .details{
+        height:80vh;
+        width:80vh;
+    }
+}
