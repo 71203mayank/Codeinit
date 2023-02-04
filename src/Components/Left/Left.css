@@ -1,13 +1,15 @@
 .Left{
     width:50vw;
-    height:100vh;
+    height:120vh;
     border-right: solid black 1px;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: 800;
 }
 .LeftHead{
     display:flex;
-    /* width:25vw; */
     justify-content: space-evenly;
-    height:35px;
+    height:60px;
     align-items: center;
     border:solid 1px black;
 }
@@ -16,12 +18,55 @@
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    height:40vw;
+    height:50vw;
     width: 50vw;
+    color:black
+    
 }
-.formDetail{
-    height:250px;
-    width:400px;
-    border:solid 1px black;
+.SubDivForm{
+    background-color: aliceblue;
+    height:550px;
+    width:450px;
+    display:flex;
+    border-radius: 20px;
+    
+}
+.subForm{
+    margin: auto;
+}
+.subInput{
+    width:350px;
+}
+.leftSub{
+    padding:2px;
+}
 
+
+@media  screen and (max-width:400px) {
+    .Left{
+        width:100vw;
+        height:max-content;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .LeftHead{
+        height:50px;    
+    }
+    .LeftForm{
+        height:90vh;
+        width: 100vw;
+        
+    }
+    .SubDivForm{
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        border: solid 1px aliceblue;
+        color:aliceblue;
+        height:80vh;
+        width:90vw;
+    }
+    .subInput{
+        width:85vw;
+    }
+    
 }

@@ -1,0 +1,5 @@
+.User{
+    /* background:linear-gradient( -45deg,#BAC8E0 , #6A85B6 ) ; */
+    background: linear-gradient(-45deg,#29323c 50%,#485563 50% );
+    display:flex;
+}
