@@ -1,0 +1,16 @@
+.nitcLogo img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.LnFLogo img {
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+}
+
+.NavBar {
+    display:flex;
+    justify-content: space-between;
+}
