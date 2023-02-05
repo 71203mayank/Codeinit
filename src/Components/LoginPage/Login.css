@@ -26,6 +26,7 @@
     background-image: url(./../../../public/Assets/loginBg.jpg);
     background-size: cover;
     background-repeat: none;
+    overflow: hidden;
 }
 .Login{
     display: flex;
@@ -51,12 +52,15 @@
     padding:15px;
 }
 .formBtn{
+    margin:auto;
     padding:5px 20px;
     border:solid 1px aliceblue;
+    border-radius: 5px;
 }
 .formBtn:hover{
     cursor: pointer;
 }
+
 
 @media screen and (max-width: 400px){
     .LogPage{
@@ -66,4 +70,5 @@
         height:80vw;
         width:80vw;
     }
+    
 }

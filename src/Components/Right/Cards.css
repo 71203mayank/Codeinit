@@ -1,15 +1,17 @@
 .Cards{
     width:500px;
     height:250px;
-    border: solid black 1px;
+    border: solid aliceblue 1px;
     display:flex;
     /* flex-wrap: wrap; */
-    color:black;
+
     margin:10px;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     color: black;
-    background-color: aliceblue;
+    font-size: 18px;
+    background-color: rgba(255,255,255, 1);
+    /* background-color: #F9F6EE; */
 }
 .CardsLeft{
     width:250px;
@@ -21,6 +23,10 @@
 .CardsRight{
     width:250px;
     padding:5px;
+}
+span{
+    font-size: 20px;
+    font-weight: 600;
 }
 
 @media screen and (max-width:400px){

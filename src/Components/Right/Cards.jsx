@@ -6,12 +6,12 @@ function Cards(props){
         <div className="Cards">
             <div className="CardsLeft"></div>
             <div className="CardsRight">
-                <div className="CardItem">Item: {props.rItem}</div>
-                <div className="CardDate">Date: {props.rDate}</div>
-                <div className="CardLocation">Location:{props.rLocation}</div>
-                <div className="CardDiscription">Description: {props.rDescription}</div>
-                <div className="CardEmail">E-mail:{props.rMail}</div>
-                <div className="CardPh">Ph No.: {props.rPh}</div>
+                <div className="CardItem"><span>Item: </span> {props.rItem}</div>
+                <div className="CardDate"><span>Date: </span>{props.rDate}</div>
+                <div className="CardLocation"><span>Location:</span>{props.rLocation}</div>
+                <div className="CardDiscription"><span>Description: </span>{props.rDescription}</div>
+                <div className="CardEmail"><span>E-mail: </span>{props.rMail}</div>
+                <div className="CardPh"><span>Ph No.: </span>{props.rPh}</div>
             </div>
 
         </div>
